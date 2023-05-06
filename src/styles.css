@@ -1,0 +1,198 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.chat-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.chat-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.chat-item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #f1ecec;
+}
+
+.chat-content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: self-start;
+}
+
+.chat-item img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.chat-item p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.chat-item:hover {
+  background: #f1f3f6;
+}
+
+.current-chat {
+  margin-top: 20px;
+}
+
+.current-chat h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.current-chat div {
+  margin-bottom: 10px;
+}
+
+.current-chat p {
+  font-size: 14px;
+  margin: 0;
+}
+
+/*  */
+
+input.search-input {
+  width: 90%;
+  padding: 10px;
+  border: 0.5px solid #efefef;
+  border-bottom: 1px solid;
+}
+
+.chat-container {
+  display: flex;
+}
+
+.chat-thread-window {
+  display: none;
+}
+
+.chat-list-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 20px;
+}
+
+.chat-active {
+  display: flex !important;
+  flex: 1;
+}
+
+.chat-title,
+.chat-order-id {
+  color: #212121;
+  font-weight: bold;
+}
+
+p.chat-last-message {
+  font-size: 0.9rem;
+  margin-top: 4px;
+}
+
+/* CHat */
+
+.message {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.BOT {
+  background-color: white;
+  text-align: left;
+  border-radius: 0 16px 16px 16px;
+}
+
+.USER {
+  background-color: #027cd5;
+  color: white;
+  text-align: right;
+  border-radius: 16px 0 16px 16px;
+}
+
+.chat-user-heading {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+}
+
+.chat-user-heading img {
+  max-width: 50px;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.chat-thread-window.chat-active {
+  display: flex;
+}
+
+.chat-ux {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.chat-thread {
+  padding: 10px;
+  overflow-y: auto;
+  height: 84vh;
+  background: #f1f3f6;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+input.chat-input {
+  width: 90%;
+  padding: 10px;
+  border: 0.5px solid #efefef;
+}
+
+.chat-thread::-webkit-scrollbar {
+  width: 0.51em;
+}
+
+.chat-thread::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+}
+
+.chat-thread::-webkit-scrollbar-thumb {
+  background-color: rgb(230, 230, 230);
+  outline: 1px solid rgba(112, 128, 144, 0);
+}
+
+/* Headings (Filter by Title/Order ID)- #212121
+Primary Text Color (Flipkart Support , Order OD121898535971680000) - #000000
+Secondary Text Color (Start typing to search ) - #878787
+ChatList Highlighted background and Single Chat View Background - #f1f3f6
+ChatList Divider Color- #f0f0f0
+Flipkart Blue - #027CD5
+OptionedMessage Background - #f5f5f5 */
